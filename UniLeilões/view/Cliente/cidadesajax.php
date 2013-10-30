@@ -1,6 +1,7 @@
 <?php
- require_once 'Cliente.php';
-$cliente = new Class_Cliente();
+ require_once '../../Template/config.php';
+ require_once $CONTROLLER.'/Unileiloes.php';
+$cliente = new Unileiloes();
   
   $id_estado=$_GET['id'];
   

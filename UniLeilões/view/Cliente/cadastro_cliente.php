@@ -1,5 +1,9 @@
 <?php require_once '../header.php'; ?>
-<?php require_once '../menu_esquerdo.php'; ?>   
+<?php require_once '../menu_esquerdo.php'; 
+
+$unileilao = new Unileiloes();
+$estados=$unileilao->GetEstado();
+?>   
 
 <script>
    $(document).ready(function() {
@@ -8,7 +12,7 @@
                     $('#loading').show();
                     $.ajax({
                         type: "Get",
-                        url: "../../controller/cidadesajax.php?id=" + $(this).val(),
+                        url: "cidadesajax.php?id=" + $(this).val(),
                         success: function(data) {
                             $('#cidade').empty();
                             $('#cidade').append(data);
@@ -52,7 +56,9 @@
                     <div style="float:left;">
                         <select id="estado" name="estado">
                             <option>Selecione</option>
-                            <option value="0">MG</option>
+                            <?php for($i=0;$i<count($estados);$i++){ ?>
+                            <option value="<?php echo $estados[$i]["idEstado"]; ?>"><?php echo utf8_encode($estados[$i]["estado"]); ?></option>
+                            <?php } ?>
                         </select>
                     </div>
                     <span id="loading" style="margin-right:170px;"><img src="../../Template/images/loading.gif"></img></span> 

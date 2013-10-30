@@ -1,4 +1,4 @@
-<?php require_once '../header.php'; ?>
+<?php require_once '../header_cadastro.php'; ?>
 <?php require_once '../menu_esquerdo.php'; ?>   
 
 
@@ -45,12 +45,23 @@
                         </div>
                     </div>
 
+                    <br><br>
+                    <fieldset>
+                        <legend align="left">Imagens</legend>
 
-                    <div class="form_row">
-                        <label class="contact"><strong>Imagem:</strong></label>
-                        <input type="file" name="imagem">
-                    </div>
-
+                        <div class="form_row">
+                            <!--<label class="contact"><strong>Imagem:</strong></label>-->
+                            <input type="file" name="imagem">
+                        </div>
+                        <div class="form_row">
+                            <!--<label class="contact"><strong>Imagem:</strong></label>-->
+                            <input type="file" name="imagem">
+                        </div>
+                        <div class="form_row">
+                            <!--<label class="contact"><strong>Imagem:</strong></label>-->
+                            <input type="file" name="imagem">
+                        </div>
+                    </fieldset>
                     <br><br/>
                     <div class="form_row" style=" width:0px !important; margin-left: 185px !important; margin-right: auto !important;"> <a href="#" class="contact">Salvar</a>  </div>
                     <div class="form_row" style=" width:30px !important; margin-left: auto  !important; margin-right: 90px !important; float: right; margin-top:-37px;"> <a href="#" class="contact_cancelar">Cancelar</a>  </div>

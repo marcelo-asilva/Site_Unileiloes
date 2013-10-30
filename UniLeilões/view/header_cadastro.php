@@ -15,12 +15,9 @@
     <?php
     //Includes Necessarios
     require_once '../../Template/config.php';
-    require_once $CONTROLLER.'/Unileiloes.php';
-    
-    
-    
+    require_once $CONTROLLER . '/Unileiloes.php';
     ?>
-    
+
     <body>
         <div id="main_container">
             <div class="top_bar">
@@ -43,18 +40,23 @@
                     <div id="menu_tab">
                         <div class="left_menu_corner"></div>
                         <ul class="menu">
-                            <li><a href="#" class="nav1">Home</a></li>
+                            <li><a href="<?php echo $URL_VIEW . "index/index.php"; ?>" class="nav1">Home</a></li>
                             <li class="divider"></li>
-                            <li><a href="<?php echo $URL_VIEW."Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Leilão</a></li>
+                            <li><a href="<?php echo $URL_VIEW . "Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Produto</a></li>
                             <li class="divider"></li>
-<!--                            <li><a href="#" class="nav2">Cadastrar Produtos</a></li>
-                            <li class="divider"></li>-->
-                            <li><a href="#" class="nav3">Minhas Compras</a></li>
+                            <li><a href="<?php echo $URL_VIEW . "Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Lote</a></li>
                             <li class="divider"></li>
+                            <li><a href="<?php echo $URL_VIEW . "Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Leilao</a></li>
+                            <li class="divider"></li>
+                            <!--                            <li><a href="#" class="nav2">Cadastrar Produtos</a></li>
+                                                        <li class="divider"></li>-->
+                            <!--<li><a href="#" class="nav3">Minhas Compras</a></li>-->
+
+<!--                            <li class="divider"></li>
                             <li><a href="#" class="nav4">Criar Conta</a></li>
                             <li class="divider"></li>
                             <li><a href=#" class="nav4">Logar</a></li>
-                            <li class="divider"></li>
+                            <li class="divider"></li>-->
                             <!--<li><a href="#" class="nav5">Logar</a></li>
                             <li class="divider"></li>-->
 
