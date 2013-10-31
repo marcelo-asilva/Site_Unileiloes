@@ -11,7 +11,7 @@
       	<div class="prod_box">
         <div class="top_prod_box"></div>
         <div class="center_prod_box">
-          <div class="product_title"><a href="details.html"></a></div>
+          <div class="product_title"><a href="details.html">Motorola</a></div>
           <div class="product_img"><a href="details.html"><img src="../../Template/images/laptop.gif" alt="" border="0" /></a></div>
           <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
         </div>

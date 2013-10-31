@@ -5,9 +5,11 @@
         <!--<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />-->
         <meta charset="utf-8"></meta>
         <link rel="stylesheet" type="text/css" href="../../Template/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../Template/js/jquery-ui-1.10.3.custom.min.css" />
         <!--[if IE 6]>
         <link rel="stylesheet" type="text/css" href="iecss.css" />
         <![endif]-->
+        <script type="text/javascript" src="../../Template/js/windowopen.js"></script>
         <script type="text/javascript" src="../../Template/js/boxOver.js"></script>
         <script type = "text/javascript" src="../../Template/js/jquery-1.9.1.js"></script>
         <script type = "text/javascript" src="../../Template/js/jquery-ui-1.10.3.custom.min.js"></script>
@@ -47,13 +49,13 @@
                             <li class="divider"></li>
                             <li><a href="<?php echo $URL_VIEW."Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Leilão</a></li>
                             <li class="divider"></li>
-<!--                            <li><a href="#" class="nav2">Cadastrar Produtos</a></li>
-                            <li class="divider"></li>-->
+                             <li><a href="#" class="nav2">Meus Leilões</a></li>
+                            <li class="divider"></li>
                             <li><a href="#" class="nav3">Minhas Compras</a></li>
                             <li class="divider"></li>
                             <li><a href="#" class="nav4">Criar Conta</a></li>
                             <li class="divider"></li>
-                            <li><a href=#" class="nav4">Logar</a></li>
+                            <li><a href="<?php echo $URL_VIEW."Cliente/Login.php"; ?>" class="nav4">Logar</a></li>
                             <li class="divider"></li>
                             <!--<li><a href="#" class="nav5">Logar</a></li>
                             <li class="divider"></li>-->

@@ -1,7 +1,11 @@
-<?php require_once '../header.php'; ?>
+<?php require_once '../header_cadastro.php'; ?>
 <?php require_once '../menu_esquerdo.php'; ?>   
 
-
+<script>
+$(document).ready(function() {
+     $( "#datepicker" ).datepicker();
+});
+</script>
 <!--Inicio do corpo do cadastro-->
 <div class="center_content">
     <div class="center_title_bar">Cadastro de Leilão</div>
@@ -25,7 +29,7 @@
                     </div>                 
                     <div class="form_row">
                         <label class="contact"><strong>Data Inicial:</strong></label>
-                        <input type="text" name="datainicial" class="contact_input_medio" required  />
+                        <input type="text" name="datainicial" id="datepicker" class="contact_input_medio" required  />
                         <label class="contact"><strong>Data Final:</strong></label>
                         <input type="text" name="datafinal" class="contact_input_medio" required  />
                     </div>

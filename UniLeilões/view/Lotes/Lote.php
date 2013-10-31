@@ -1,4 +1,4 @@
-<?php require_once '../header.php'; ?>
+<?php require_once '../header_cadastro.php'; ?>
 <?php require_once '../menu_esquerdo.php'; ?>   
 
 
@@ -11,8 +11,8 @@
             <form>
                 <div class="contact_form">
                     <div class="form_row">
-                        <label class="contact"><strong>Lote:</strong></label>
-                        <input type="text" name="lote" class="contact_input_medio" required  />
+                        <label class="contact"><strong>Lote Nº 01</strong></label>
+                      
                     </div>
                     <div class="form_row">
                         <label class="contact"><strong>Produto:</strong></label>

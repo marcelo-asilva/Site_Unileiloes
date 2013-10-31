@@ -5,6 +5,7 @@
         <!--<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />-->
         <meta charset="utf-8"></meta>
         <link rel="stylesheet" type="text/css" href="../../Template/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../Template/js/jquery-ui-1.10.3.custom.min.css" />
         <!--[if IE 6]>
         <link rel="stylesheet" type="text/css" href="iecss.css" />
         <![endif]-->
@@ -44,9 +45,9 @@
                             <li class="divider"></li>
                             <li><a href="<?php echo $URL_VIEW . "Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Produto</a></li>
                             <li class="divider"></li>
-                            <li><a href="<?php echo $URL_VIEW . "Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Lote</a></li>
+                            <li><a href="<?php echo $URL_VIEW . "Lotes/Lote.php"; ?>" class="nav2">Cadastrar Lote</a></li>
                             <li class="divider"></li>
-                            <li><a href="<?php echo $URL_VIEW . "Produtos/cadastro_produto.php"; ?>" class="nav2">Cadastrar Leilao</a></li>
+                            <li><a href="<?php echo $URL_VIEW . "Leiloes/cadastro_leilao.php"; ?>" class="nav2">Cadastrar Leilao</a></li>
                             <li class="divider"></li>
                             <!--                            <li><a href="#" class="nav2">Cadastrar Produtos</a></li>
                                                         <li class="divider"></li>-->
