@@ -18,9 +18,6 @@
     //Includes Necessarios
     require_once '../../Template/config.php';
     require_once $CONTROLLER.'/Unileiloes.php';
-    
-    
-    
     ?>
     
     <body>

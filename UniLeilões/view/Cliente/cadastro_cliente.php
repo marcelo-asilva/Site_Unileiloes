@@ -7,7 +7,7 @@ $estados=$unileilao->GetEstado();
 
 <script>
    $(document).ready(function() {
-    $('#loading').hide();
+                $('#loading').hide();
                 $('#estado').change(function() {
                     $('#loading').show();
                     $.ajax({
@@ -26,9 +26,16 @@ $estados=$unileilao->GetEstado();
                     });
 
                 });
+                
+               $("#salvar").click(function(){
+               $("#acao").val('salvar');
+                $("#form").submit();
+               });
         });
 </script>
 <!--Inicio do corpo do cadastro-->
+<form name="cliente" id="form" action="../../controller/controller_cliente.php" method="POST">
+
 <div class="center_content">
     <div class="center_title_bar">Cadastro de Cliente</div>
     <div class="prod_box_big">
@@ -67,6 +74,7 @@ $estados=$unileilao->GetEstado();
                     <label class="contact"><strong>Cidade:</strong></label>
                     <div style="float:left; ">
                         <select id="cidade" name="cidade">
+                            
                         </select>
                     </div>
                 </div>
@@ -98,9 +106,12 @@ $estados=$unileilao->GetEstado();
                         <input type="password" name="confirmar_senha" maxlength="8" class="contact_input_medio" />
                     </div>
                 </div>
+                <input type="hidden" id="acao" name="acao"/>
+                
+                </form>
                 <br><br/>
-                <div class="form_row" style=" width:0px !important; margin-left: 185px !important; margin-right: auto !important;"> <a href="#" class="contact">Salvar</a>  </div>
-                <div class="form_row" style=" width:30px !important; margin-left: auto  !important; margin-right: 90px !important; float: right; margin-top:-37px;"> <a href="#" class="contact_cancelar">Cancelar</a>  </div>
+                <div class="form_row" style=" width:0px !important; margin-left: 185px !important; margin-right: auto !important;"> <a href="#" id="salvar" class="contact">Salvar</a>  </div>
+                <div class="form_row" style=" width:30px !important; margin-left: auto  !important; margin-right: 90px !important; float: right; margin-top:-37px;"> <a href="../index/index.php" class="contact_cancelar">Cancelar</a>  </div>
             </div>
         </div>
         <div class="bottom_prod_box_big"></div>

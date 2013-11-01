@@ -29,10 +29,11 @@ class Unileiloes{
     * GetCidadesporEstado
     * Retorna todas as cidades de um estado para o ajax
     * @param type $id_estado
-    * @return type <option>
+    * @return type Array
     */
     public function GetCidadesporEstado($id_estado) {
         $bdLeilao = new bd_leilao();
+      //  $sql="Insert into cidade values(".$id_estado.",".$cidade.",";
         $sql = "select * from cidade where id_estado=" . $id_estado;
         $result = $bdLeilao->select($sql);
         $qtd = mysql_num_rows($result);
