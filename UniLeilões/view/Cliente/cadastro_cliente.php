@@ -44,7 +44,7 @@ $estados=$unileilao->GetEstado();
             <div class="contact_form">
                 <div class="form_row">
                     <label class="contact"><strong>Nome:</strong></label>
-                    <input type="text" name="nome" class="contact_input" />
+                    <input type="text" name="nome" class="contact_input" required/>
                 </div>
                 <div class="form_row">
                     <label class="contact"><strong>CPF:</strong></label>
@@ -108,9 +108,9 @@ $estados=$unileilao->GetEstado();
                 </div>
                 <input type="hidden" id="acao" name="acao"/>
                 
-                </form>
+                <!--</form><a href="#" id="salvar" class="contact">Salvar</a>-->
                 <br><br/>
-                <div class="form_row" style=" width:0px !important; margin-left: 185px !important; margin-right: auto !important;"> <a href="#" id="salvar" class="contact">Salvar</a>  </div>
+                <div class="form_row" style=" width:0px !important; margin-left: 185px !important; margin-right: auto !important;"> <input class="contact" type="submit" name="salvar"/> </div>
                 <div class="form_row" style=" width:30px !important; margin-left: auto  !important; margin-right: 90px !important; float: right; margin-top:-37px;"> <a href="../index/index.php" class="contact_cancelar">Cancelar</a>  </div>
             </div>
         </div>

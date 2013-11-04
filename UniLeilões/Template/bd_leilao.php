@@ -6,6 +6,7 @@ class bd_leilao
     protected $senha="";
     protected $banco="bd_leilao";
     protected $conn;
+  
     protected $qtd;
     
     public function open()     
@@ -60,7 +61,16 @@ class bd_leilao
             {
                 return $this->qtd;
             }
-         
+       
+    
+   
+
+   
+ 
+
+
+
+    
 }
 
 ?>

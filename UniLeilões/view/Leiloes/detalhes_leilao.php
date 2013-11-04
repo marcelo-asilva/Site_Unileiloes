@@ -8,8 +8,20 @@
       <div class="prod_box_big">
         <div class="top_prod_box_big"></div>
         <div class="center_prod_box_big">
-          <div class="product_img_big"> <a href="javascript:popImage('../../Template/images/big_pic.jpg','Some Title')" title="header=[Zoom] body=[&nbsp;] fade=[on]"><img src="../../Template/images/laptop.gif" alt="" border="0" /></a>
-            <div class="thumbs"> <a href="#" title="header=[Thumb1] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a> <a href="#" title="header=[Thumb2] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a> <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a> </div>
+          <div class="product_img_big"> 
+              <a href="javascript:popImage('../../Template/images/Produtos/grande.jpg','Some Title')" title="header=[Zoom] body=[&nbsp;] fade=[on]"><img src="../../Template/images/Produtos/media.jpg" alt="" border="0" /></a>
+            <div class="thumbs"> 
+                <a href="#" title="header=[Thumb1] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a> 
+                <a href="javascript:popImage('../../Template/images/Produtos/grande.jpg','Some Title')" title="header=[Thumb2] body=[&nbsp;] fade=[on]"><img src="../../Template/images/Produtos/pequena.jpg" alt="" border="0" /></a>
+                <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+                 <a href="#" title="header=[Thumb3] body=[&nbsp;] fade=[on]"><img src="../../Template/images/thumb1.gif" alt="" border="0" /></a>
+            </div>
           </div>
           <div class="details_big_box">
             <div class="product_title_big">My Cinema-U3000/DVBT, USB 2.0 TV BOX External, White</div>

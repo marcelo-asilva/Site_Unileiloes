@@ -548,7 +548,7 @@ padding:0px 0 0 75px;
  background-color:white;
 }
 .form_row{
-width:370px;
+width:440px;
 clear:both;
 padding:10px 0 10px 0;
 _padding:5px 0 5px 0;
@@ -605,6 +605,18 @@ border:1px #DFDFDF solid;
 float:left;
 }
 a.contact{
+width:99px;
+height:27px;
+display:block;
+float:right;
+margin:0 0 0 10px;
+background:url(images/contact_bt.gif) no-repeat left;
+padding:0 0 0 10px;
+text-decoration:none;
+line-height:27px;
+color:#1c4a52;
+}
+input.contact{
 width:99px;
 height:27px;
 display:block;
@@ -686,4 +698,10 @@ width:200px;
 text-align:center;
 color:#666666;
 padding:10px 0 0 60px;
+}
+
+.validacao{
+text-align: left;
+font-size:22px;
+color: red;
 }
