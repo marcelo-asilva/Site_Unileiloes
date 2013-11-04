@@ -1,8 +1,13 @@
 <?php
+require_once '../../controller/ClassCliente.php';
+
+$cliente = new Cliente();
 extract($_POST);
-echo $nome;
-die();
-//$classe->salvar($nome,$telefone,$cpf);
+
+$cliente->setcadastracliente($nome, $cpf, $email, $telefone, $rua, $bairro, $numero, $cep, $login, $senha);
+
+//echo $nome;
+//die();
 //switch ($acao) {
 //    case "salvar":
 //
@@ -14,8 +19,7 @@ die();
 //    default:
 //        break;
 //}
-
 ?>
 <script>
-    document.location="view/index/index.php";
+    document.location = "view/index/index.php";
 </script>

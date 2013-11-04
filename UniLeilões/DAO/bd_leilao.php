@@ -61,16 +61,7 @@ class bd_leilao
             {
                 return $this->qtd;
             }
-       
-    
-   
-
-   
- 
-
-
-
-    
+         
 }
 
 ?>
