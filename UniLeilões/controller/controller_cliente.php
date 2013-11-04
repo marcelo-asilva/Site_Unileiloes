@@ -1,10 +1,10 @@
 <?php
-require_once '../../controller/ClassCliente.php';
+require_once 'ClassCliente.php';
 
-$cliente = new Cliente();
 extract($_POST);
 
-$cliente->setcadastracliente($nome, $cpf, $email, $telefone, $rua, $bairro, $numero, $cep, $login, $senha);
+$cliente = new Cliente();
+$cliente->setcadastracliente($nome, $cpf, $email, $telefone, $estado, $cidade, $rua, $bairro, $numero, $cep, $login, $senha);
 
 //echo $nome;
 //die();
